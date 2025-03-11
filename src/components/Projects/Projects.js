@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Volta from "../../Assets/Projects/volta.svg";
+import SalleMarche from "../../Assets/Projects/salle_marche.png";
+import InventoryManagement from "../../Assets/Projects/InventoryManagement.png";
 
 
 function Projects() {
@@ -26,19 +28,27 @@ function Projects() {
               demoLink="https://voltasoftware.com/en"
             />
           </Col>
-        </Row>
-        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Volta}
+              imgPath={SalleMarche}
               isBlog={false}
-              title="Volta"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://voltasoftware.com/en"
+              title="Salle de marche"
+              description="SalleDeMarche is a web application developed with Django to streamline and optimize the management of the market room within El Amana Bank. This project focuses on monitoring financial market operations, tracking forex activities, managing transactions, and generating insightful reports."
+              ghLink="https://github.com/AymanMady/salle_de_marche"
+              // demoLink="https://voltasoftware.com/en"
             />
           </Col>
-        </Row> */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={InventoryManagement}
+              isBlog={false}
+              title="InventoryManagement"
+              description="InventoryManagement is a web application developed with Django to simplify and optimize inventory management within the Ministry of Higher Education. This project centralizes the tracking of material resources, manages stock, generates reports, and improves the traceability of equipment."
+              ghLink="https://github.com/AymanMady/salle_de_marche"
+              // demoLink="https://voltasoftware.com/en"
+            />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
