@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Volta from "../../Assets/Projects/volta.svg";
 import SalleMarche from "../../Assets/Projects/salle_marche.png";
 import InventoryManagement from "../../Assets/Projects/InventoryManagement.png";
+import PSE from "../../Assets/Projects/pse.png";
 
 
 function Projects() {
@@ -44,7 +45,17 @@ function Projects() {
               isBlog={false}
               title="InventoryManagement"
               description="InventoryManagement is a web application developed with Django to simplify and optimize inventory management within the Ministry of Higher Education. This project centralizes the tracking of material resources, manages stock, generates reports, and improves the traceability of equipment."
-              ghLink="https://github.com/AymanMady/salle_de_marche"
+              ghLink="https://github.com/AymanMady/InventoryManagement"
+              // demoLink="https://voltasoftware.com/en"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PSE}
+              isBlog={false}
+              title="PSE"
+              description="PSE is a collaborative web platform developed with PHP and Decorizer to streamline the management of academic work. This project aims to provide a user-friendly and efficient experience for handling assignments and evaluations."
+              ghLink="https://github.com/AymanMady/pse"
               // demoLink="https://voltasoftware.com/en"
             />
           </Col>
